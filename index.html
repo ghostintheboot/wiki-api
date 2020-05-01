@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Wikipedia API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./resources/css/WikiAPICSS.css">
+  <link rel="stylesheet" type="text/css" href="./resources/css/mediaqueries.css">
+</head>
+
+
+<body>
+  <div class="container">
+    
+    <div>
+      <h1 class="header-title">
+        <span class="drop-caps">W</span>ikipedia <span class="drop-caps">V</span>iewer
+      </h1>
+      
+      <div>
+        <p class="sub-title">Type some text in the search bar, then click Search or press Enter.</p>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="search-area">
+      <input class="search-query" type="text" maxlength="20" onkeyup="disableInputField()" />
+      <button class="search-button" onclick="getData()">SEARCH</button>
+    </div>
+
+    <div class="content-output"></div>    
+  </div>
+  
+  <script src="./resources/js/WikiAPIJS.js"></script>
+</body>
+</html>
