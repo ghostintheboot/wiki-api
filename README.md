@@ -2,7 +2,7 @@
 Wikipedia API
 
 ## Live Link 
-Via GitHub Pages: http://ghostintheboot.github.io/wiki-api
+Via GitHub Pages: https://ghostintheboot.github.io/wiki-api
 
 ## Overview 
 I started this project as a challenge to myself: Take this ancient Free Code Camp mini-project, then update it so it's responsive and has no dependencies. Vanilla HTML, CSS, and JS.
